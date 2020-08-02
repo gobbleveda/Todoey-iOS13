@@ -50,6 +50,7 @@ class CategoryViewController: UITableViewController {
     // MARK: - Table View Datasource methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return categories?.count ?? 1
     }
     
